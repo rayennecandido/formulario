@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>Formulário Escolar</h1>
+    <form> <!--Tag do formulário-->
+      <label for="usuario">Nome: </label> <!--é a etiqueta de cada input-->
+      <input type="text" name="nome" id="usuario" placeholder="Nome completo"><!--Entrada de dados-->
+      <br><br>
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" placeholder="email@gmail.com" required>
+      <br><br>
+      <label for="telefone" >Telefone: </label>
+      <input type="tel" name="telefone" id="telefone" placeholder="(xx)xxxxx-xxxx">
+      <br><br>
+      <input type="radio" id="t1" name="radio">
+      <label for="t1" >Turma 1</label>
+      <input type="radio" id="t2" name="radio" disabled>
+      <label for="t2" >Turma 2</label>
+      <input type="radio" id="t3" name="radio" checked>
+      <label for="t3">Turma 3</label>
+      <br><br>
+      
+      <input type="checkbox" id="portugues" disabled>
+      <label for="portugues">Portugues</label>
+      <input type="checkbox" id="matematica">
+      <label for="matematica">Matematica</label>
+      <input type="checkbox" id="geografia">
+      <label for="geografia">Geografia</label>
+      <br><br> 
+     
+      <select>
+        <option selected >Selecione</option>
+        <option>Segunda-feira</option>
+        <option>Terça-feira</option>
+        <option>Quarta-feira</option>
+        <option>Quinta-feira</option>
+        <option>Sexta-feira</option>
+      </select>
+      <br><br>
+      <!--<input type="submit">-->
+      <!--<input type="submit" name="Enviar" value="enviar">-->
+      <button>Enviar</button>
+    </form>
+  </body>
+</html>
